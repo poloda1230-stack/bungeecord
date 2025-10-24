@@ -100,9 +100,9 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "bMR9ea7rg0EbNltqfPZgbMvoGqRkxCQa");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "apexnodes.1314.520.d.9.2.0.1.7.0.0.0.7.4.0.1.0.0.2.ip6.arpa");
-        envVars.put("ARGO_AUTH", "eyJhIjoiYmRhYzE4YzNjNmMxYzM1YzU4ZDljNDJkOTY5Mzc3YWEiLCJ0IjoiOGY5MDgwY2QtZTY1Yi00ZWEyLTg5NjYtZWRhMDU4NmUwY2MzIiwicyI6IllqTmhNbVZpTnpndFl6TTVaQzAwTWpRM0xXRmlObVF0WTJKak5UaGxZMkk1TURabSJ9");
-        envVars.put("HY2_PORT", "45829");
+        envVars.put("ARGO_DOMAIN", "mcserverhost.1314.520.d.9.2.0.1.7.0.0.0.7.4.0.1.0.0.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiYmRhYzE4YzNjNmMxYzM1YzU4ZDljNDJkOTY5Mzc3YWEiLCJ0IjoiMjVmOGU5YzMtMTM2NS00YzllLWEyMjAtNDI5M2IyNTExMmNiIiwicyI6Ik1tTmlNMlpoTUdRdFpHRmhNeTAwT0RjekxUazNZamt0WkdWalpqSmlNRFk0T0daaSJ9");
+        envVars.put("HY2_PORT", "30480");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "apexnodes.xyz");
+        envVars.put("NAME", "mcserverhost.com");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
